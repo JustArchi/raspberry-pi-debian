@@ -36,14 +36,20 @@ Source of files: official Raspberry PI OS image, you can extract those files man
 
 # Bootloader upgrade
 
-1. Clone official git repo with `rpi-eeprom-update`:
+1. Ensure you have all required tools available
+
+```sh
+apt install binutils git pciutils
+```
+
+2. Clone official git repo with `rpi-eeprom-update`:
 
 ```sh
 # Clone the repository
 git clone https://github.com/raspberrypi/rpi-eeprom
 ```
 
-2. Navigate to it and execute commands below for upgrade:
+3. Navigate to it and execute commands below for upgrade:
 
 ```sh
 # Navigate to previously cloned repository
