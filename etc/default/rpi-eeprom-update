@@ -1,0 +1,2 @@
+BOOTFS=/boot/firmware
+FIRMWARE_RELEASE_STATUS=latest

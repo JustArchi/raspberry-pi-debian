@@ -1,0 +1,9 @@
+[Unit]
+Description=ArchiBoot service
+
+[Service]
+ExecStart=/root/autostart.sh
+Type=oneshot
+
+[Install]
+WantedBy=multi-user.target
