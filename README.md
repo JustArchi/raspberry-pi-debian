@@ -30,6 +30,8 @@ Pick the files you need/want in appropriate directories:
 - `/lib/aarch64-linux-gnu` for required libraries that `vcgencmd` depends on
 - `/usr/bin/vcgencmd` for `vcgencmd` command, you may need to `chmod +x` it
 
+Source of files: official Raspberry PI OS image, you can extract those files manually if you want to
+
 ---
 
 # Bootloader upgrade
